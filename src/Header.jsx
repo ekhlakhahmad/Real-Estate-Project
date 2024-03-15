@@ -10,10 +10,10 @@ const Header = () => {
 			</div>
 			<ul className="flex justify-between items-center">
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					Home
+					<Link to="/home">Home</Link>
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					About us
+					<Link to="/about">About us</Link>
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
 					<Link to="/project">Projects</Link>
@@ -22,7 +22,7 @@ const Header = () => {
 					Partner with us
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					Gallery
+					<Link to="/gallery">Gallery</Link>
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
 					Careers
@@ -31,7 +31,7 @@ const Header = () => {
 					Knowledge Hub
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					Contact
+					<Link to="/contact">Contact</Link>
 				</li>
 			</ul>
 		</div>
