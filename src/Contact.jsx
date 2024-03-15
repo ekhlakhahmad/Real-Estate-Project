@@ -9,7 +9,7 @@ const Contact = () => {
 				alt="contactimage"
 			/>
 			<div>
-				<form className="w-1/2">
+				<form className="w-5/6">
 					<input
 						className="w-full p-2 outline-none border-2 my-2 text-blue-600 text-xl rounded-md border-blue-600"
 						type="text"
@@ -30,7 +30,7 @@ const Contact = () => {
 						{" "}
 					</textarea>
 					<input
-						className="w-full p-2 outline-none border-2 my-2 text-blue-600 text-xl rounded-md border-blue-600 cursor-pointer"
+						className="w-full p-2 outline-none border-2 my-2 text-blue-600 text-xl rounded-md border-blue-600 cursor-pointer hover:bg-blue-300 hover:text-black"
 						type="submit"
 					/>
 				</form>
