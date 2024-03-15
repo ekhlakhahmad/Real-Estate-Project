@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import LOGO3 from "./assets/logo4.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
@@ -15,7 +16,7 @@ const Header = () => {
 					About us
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					Projects
+					<Link to="/project">Projects</Link>
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
 					Partner with us

@@ -1,22 +1,21 @@
-import About from "./About"
-import Body from "./Body"
-import Customer from "./Customer"
-import Footer from "./Footer"
-import Header from "./Header"
-import Hero from "./Hero"
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Project from "./Project";
+import Header from "./Header";
+import Footer from "./Footer";
 
-function App() {
+const App = () => {
+	return (
+		<BrowserRouter>
+			<Header />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/project" element={<Project />} />
+			</Routes>
+			<Footer />
+		</BrowserRouter>
+	);
+};
 
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <About />
-      <Body />
-      <Customer/>
-      <Footer/>
-    </div>
-  )
-}
-
-export default App
+export default App;

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div className="flex justify-evenly items-start px-40 pb-20 pt-10 gap-5 bg-[#12276e] text-white">
+		<div className="flex justify-evenly items-start px-40 pb-20 pt-10 gap-5 bg-[#141516] text-white">
 			<div>
 				<h1 className="font-bold text-2xl">Address:</h1>
 				<ul>
@@ -22,12 +22,21 @@ const Footer = () => {
 						Lavelle Road, behind Rotary Club, <br />
 						Bengaluru, Karnataka 560001
 					</li>
+					<li>EMAIL:</li>
+					<li>info@primelandindia.com</li>
 				</ul>
 			</div>
 			<div>
+				<h1 className="font-bold text-2xl">Project:</h1>
 				<ul>
-					<li>EMAIL:</li>
-					<li>info@primelandindia.com</li>
+					<li>Pedda Amberpet</li>
+					<li>Reserve</li>
+					<li>Iconia</li>
+					<li>The One</li>
+					<li>Greenfield at Kommireddypally</li>
+					<li>Greenfield Nandipet</li>
+					<li>Greenfield Forever</li>
+					<li>Video Intro</li>
 				</ul>
 			</div>
 		</div>
