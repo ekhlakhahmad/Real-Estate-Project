@@ -1,21 +1,6 @@
 import React from "react";
+import { assets } from "./assets/Compress/assets";
 import home from "./assets/home.jpg";
-import p1 from "./assets/Compress/p1.jpg";
-import p2 from "./assets/Compress/p2.jpg";
-import p3 from "./assets/Compress/p3.jpg";
-import p4 from "./assets/Compress/p4.jpg";
-import p5 from "./assets/Compress/p5.jpg";
-import p6 from "./assets/Compress/p6.jpg";
-import p7 from "./assets/Compress/p7.jpg";
-import p8 from "./assets/Compress/p8.jpg";
-import p9 from "./assets/Compress/p9.jpg";
-import p10 from "./assets/Compress/p10.jpg";
-import p11 from "./assets/Compress/p11.jpg";
-import p12 from "./assets/Compress/p12.jpg";
-import p13 from "./assets/Compress/p13.jpg";
-import p14 from "./assets/Compress/p14.jpg";
-import p15 from "./assets/Compress/p15.jpg";
-import p16 from "./assets/Compress/p16.jpg";
 import GoogleMapReact from "google-map-react";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -23,82 +8,82 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 const Project = () => {
 	const projectItems = [
 		{
-			image: p1,
+			image: assets.p1,
 			alt: "Basketball",
 			title: "BASKET BALL",
 		},
 		{
-			image: p2,
+			image: assets.p2,
 			alt: "Board Games",
 			title: "BOARD GAMES",
 		},
 		{
-			image: p3,
+			image: assets.p3,
 			alt: "Carrom",
 			title: "CARROM",
 		},
 		{
-			image: p4,
+			image: assets.p4,
 			alt: "Chess",
 			title: "CHESS",
 		},
 		{
-			image: p5,
+			image: assets.p5,
 			alt: "Coffee Shop",
 			title: "COFFEE SHOP",
 		},
 		{
-			image: p6,
+			image: assets.p6,
 			alt: "Cycling Track",
 			title: "CYCLING TRACK",
 		},
 		{
-			image: p7,
+			image: assets.p7,
 			alt: "Foosball",
 			title: "FOOSBALL",
 		},
 		{
-			image: p8,
+			image: assets.p8,
 			alt: "Gym",
 			title: "GYM",
 		},
 		{
-			image: p9,
+			image: assets.p9,
 			alt: "Kids Play Zone",
 			title: "KIDS PLAY ZONE",
 		},
 		{
-			image: p10,
+			image: assets.p10,
 			alt: "Lobby",
 			title: "LOBBY",
 		},
 		{
-			image: p11,
+			image: assets.p11,
 			alt: "Multipurpose Party Hall",
 			title: "MULTIPURPOSE PARTY HALL",
 		},
 		{
-			image: p12,
+			image: assets.p12,
 			alt: "Net Cricket",
 			title: "NET CRICKET",
 		},
 		{
-			image: p13,
+			image: assets.p13,
 			alt: "Restaurant",
 			title: "RESTAURANT",
 		},
 		{
-			image: p14,
+			image: assets.p14,
 			alt: "Table Tennis",
 			title: "TABLE TENNIS",
 		},
 		{
-			image: p15,
+			image: assets.p15,
 			alt: "Volleyball Court",
 			title: "VOLLEY BALL COURT",
 		},
 		{
-			image: p16,
+			image: assets.p16,
 			alt: "Kids Play Zone",
 			title: "KIDS PLAY ZONE",
 		},
