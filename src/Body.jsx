@@ -12,27 +12,51 @@ const Body = () => {
 			<h2 className="font-bold text-4xl text-center">OUR FEATURED PROJECTS</h2>
 			<div className="flex justify-center gap-20 flex-wrap">
 				<div>
-					<img src={img1} alt="" className="w-[400px] h-[250px] rounded-lg" />
+					<img
+						src={img1}
+						alt=""
+						className="w-[400px] h-[250px] rounded-lg cursor-pointer hover:scale-105 duration-1000"
+					/>
 					<p className="text-center pt-2">Mahabubnagar Project</p>
 				</div>
 				<div>
-					<img src={img2} alt="" className="w-[400px] h-[250px] rounded-lg" />
+					<img
+						src={img2}
+						alt=""
+						className="w-[400px] h-[250px] rounded-lg cursor-pointer hover:scale-105 duration-1000"
+					/>
 					<p className="text-center pt-2">Mahabubnagar Project</p>
 				</div>
 				<div>
-					<img src={img3} alt="" className="w-[400px] h-[250px] rounded-lg" />
+					<img
+						src={img3}
+						alt=""
+						className="w-[400px] h-[250px] rounded-lg cursor-pointer hover:scale-105 duration-1000"
+					/>
 					<p className="text-center pt-2">Gudur Project</p>
 				</div>
 				<div>
-					<img src={img4} alt="" className="w-[400px] h-[250px] rounded-lg" />
+					<img
+						src={img4}
+						alt=""
+						className="w-[400px] h-[250px] rounded-lg cursor-pointer hover:scale-105 duration-1000"
+					/>
 					<p className="text-center pt-2">Gudur Project</p>
 				</div>
 				<div>
-					<img src={img5} alt="" className="w-[400px] h-[250px] rounded-lg" />
+					<img
+						src={img5}
+						alt=""
+						className="w-[400px] h-[250px] rounded-lg cursor-pointer hover:scale-105 duration-1000"
+					/>
 					<p className="text-center pt-2">The One, Maredpally Project</p>
 				</div>
 				<div>
-					<img src={img6} alt="" className="w-[400px] h-[250px] rounded-lg" />
+					<img
+						src={img6}
+						alt=""
+						className="w-[400px] h-[250px] rounded-lg cursor-pointer hover:scale-105 duration-1000"
+					/>
 					<p className="text-center pt-2">The One, Maredpally Project</p>
 				</div>
 			</div>

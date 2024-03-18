@@ -13,13 +13,7 @@ const Header = () => {
 					<Link to="/home">Home</Link>
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					<Link to="/about">About us</Link>
-				</li>
-				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
 					<Link to="/project">Projects</Link>
-				</li>
-				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					Partner with us
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
 					<Link to="/gallery">Gallery</Link>
@@ -28,10 +22,10 @@ const Header = () => {
 					Careers
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					Knowledge Hub
+					<Link to="/contact">Contact</Link>
 				</li>
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-base">
-					<Link to="/contact">Contact</Link>
+					<Link to="/about">About us</Link>
 				</li>
 			</ul>
 		</div>

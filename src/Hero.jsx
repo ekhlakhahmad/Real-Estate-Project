@@ -22,7 +22,7 @@ const Hero = () => {
 					built with a seasoned buyer in mind. Our commitment to our customers
 					has been at the core of what we do and have always placed a premium on
 					a collaborative and a “win-win” relationship’s.
-					<button className="p-2 border-sm rounded-md bg-blue-700 text-white hover:bg-blue-800 mb-24">
+					<button className="p-2 border-sm rounded-full bg-blue-700 text-white hover:bg-blue-800 mb-24 px-4">
 						Enquiry Now
 					</button>
 				</p>
