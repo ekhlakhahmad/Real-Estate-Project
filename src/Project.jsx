@@ -1,9 +1,6 @@
 import React from "react";
 import { assets } from "./assets/Compress/assets";
 import home from "./assets/home.jpg";
-import GoogleMapReact from "google-map-react";
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const Project = () => {
 	const projectItems = [
@@ -89,40 +86,36 @@ const Project = () => {
 		},
 	];
 
-	const defaultProps = {
-		center: {
-			lat: 10.99835602,
-			lng: 77.01502627,
-		},
-		zoom: 11,
-	};
-
 	return (
 		<div>
-			<h1 className="p-10 text-center text-6xl text-blue-600 font-poppins">
+			<h1 className="p-10 text-center md:text-6xl text-4xl text-blue-600 font-poppins">
 				Welcome to Pedda Amberpet
 			</h1>
-			<div className="flex justify-between p-20">
-				<p className="flex flex-col items-start gap-8 w-1/2 list-disc text-2xl">
+			<div className="flex justify-between px-32">
+				<p className="w-1/2 flex flex-col items-start gap-8 text-2xl">
 					If the apartment life is more of your style then we’ve got you
 					covered. Live in your dream home at an excellent premium, 2 list-disc
 					& 3 BHK apartments with exclusive amenities that let you experience
 					luxury and comfort unlike anything else.
-					<button className="p-2 list-disc border-sm rounded-md bg-blue-700 text-white hover:bg-blue-800 mb-24">
+					<button className="p-2 border-2 border-blue-600 rounded-full text-blue-500 hover:bg-blue-700 mb-24 hover:text-white px-4">
 						Enquiry Now
 					</button>
 				</p>
-				<img src={home} alt="" className="w-[500px] h-[400px] pb-10" />
+
+				<img src={home} alt="image" className="w-[500px] h-[400px] pb-10" />
 			</div>
-			<div className="flex flex-col justify-center px-10 py-10 gap-5 bg-[#12276e] text-white">
-				<h2 className="font-bold text-4xl text-center">Project Features</h2>
+
+			<div className="flex flex-col justify-center p-10 gap-5 bg-[#12276e] text-white">
+				<h2 className="font-bold text-4xl text-center pb-5">
+					Project Features
+				</h2>
 				<div className="flex justify-center gap-5 flex-wrap">
 					{projectItems.map((item, index) => (
 						<div key={index}>
 							<img
 								src={item.image}
 								alt={item.alt}
-								className="w-[300px] h-[200px] rounded-lg"
+								className="w-[300px] h-[200px] rounded-lg hover:scale-105 duration-500 cursor-pointer"
 								loading="lazy"
 							/>
 							<p className="text-center pt-2 list-disc">{item.title}</p>
