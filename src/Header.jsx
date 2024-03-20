@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import LOGO3 from "./assets/logo4.png";
+import LOGO3 from "./assets/FEJ LOGO.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<div className="flex justify-between items-center px-16 py-5 text-lg text-black shadow-lg">
+		<div className="flex justify-between items-center px-16 text-lg text-black shadow-lg">
 			<div>
 				<img src={LOGO3} alt="" className="w-20" />
 			</div>
