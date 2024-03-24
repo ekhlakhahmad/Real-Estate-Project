@@ -8,7 +8,7 @@ import map from "./assets/map (Traced).svg";
 const Hero = () => {
 	return (
 		<div>
-			<div className="flex flex-wrap justify-between md:flex-row flex-col px-10">
+			<div className="flex flex-wrap justify-between md:flex-row flex-col px-20">
 				<p className="flex flex-col items-start gap-8 md:w-1/2 w-full text-xl text-justify">
 					<h1 className="pt-32 md:text-6xl text-3xl text-blue-600 font-poppins">
 						THE PRIMELAND MARK
