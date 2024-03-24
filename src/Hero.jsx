@@ -8,9 +8,9 @@ import map from "./assets/map (Traced).svg";
 const Hero = () => {
 	return (
 		<div>
-			<div className="flex justify-between px-20">
-				<p className="flex flex-col items-start gap-8 w-1/2 text-xl">
-					<h1 className="pt-32 text-6xl text-blue-600 font-poppins">
+			<div className="flex flex-wrap justify-between md:flex-row flex-col px-20">
+				<p className="flex flex-col items-start gap-8 md:w-1/2 w-full text-xl text-justify">
+					<h1 className="pt-32 md:text-6xl text-2xl text-blue-600 font-poppins">
 						THE PRIMELAND MARK
 					</h1>
 					We work with a purpose and the purpose is to create value for
@@ -26,7 +26,7 @@ const Hero = () => {
 						Enquiry Now
 					</button>
 				</p>
-				<img src={home} alt="" className="w-1/3" />
+				<img src={home} alt="" className="md:w-1/3" />
 			</div>
 			<div className="flex justify-around items-center bg-[#e2efff] py-12">
 				<div className="flex flex-col justify-center items-center">
