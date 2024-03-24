@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className="flex flex-wrap justify-center px-16 text-xl my-14">
-			<div className="w-1/2 flex flex-col gap-4 p-8 bg-[#12276e] text-white rounded-tl-md">
+		<div className="flex flex-wrap justify-center px-10 text-xl text-justify my-14">
+			<div className="w-1/2 flex flex-col gap-4 p-5 bg-[#12276e] text-white rounded-tl-md">
 				<h1 className="text-center text-4xl font-bold">Passion</h1>
 				<p className="text-base">
 					We are passionate about what we do and we believe that Real Estate
@@ -12,7 +12,7 @@ const About = () => {
 					create increased value for everyone.
 				</p>
 			</div>
-			<div className="w-1/2 flex flex-col gap-4 p-8 bg-[#f39314] text-white rounded-tr-md">
+			<div className="w-1/2 flex flex-col gap-4 p-5 bg-[#f39314] text-white rounded-tr-md">
 				<h1 className="text-center text-4xl font-bold">Value Creation</h1>
 				<p className="text-base">
 					We work with a purpose and the purpose is to create value for every
@@ -22,7 +22,7 @@ const About = () => {
 					change.
 				</p>
 			</div>
-			<div className="w-1/2 flex flex-col gap-4 p-8 bg-[#f39314] text-white rounded-bl-md">
+			<div className="w-1/2 flex flex-col gap-4 p-5 bg-[#f39314] text-white rounded-bl-md">
 				<h1 className="text-center text-4xl font-bold">Commitment</h1>
 				<p className="text-base">
 					Commitment We do what we say and believe in doing the right thing. We
@@ -32,7 +32,7 @@ const About = () => {
 					times.
 				</p>
 			</div>
-			<div className="w-1/2 flex flex-col gap-4 p-8 bg-[#12276e] text-white rounded-br-md">
+			<div className="w-1/2 flex flex-col gap-4 p-5 bg-[#12276e] text-white rounded-br-md">
 				<h1 className="text-center text-4xl font-bold">Sustainability</h1>
 				<p className="text-base">
 					What some call difficult, we love doing it. We go beyond property

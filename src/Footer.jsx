@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div className="flex justify-evenly items-start px-40 pb-20 pt-10 gap-5 bg-[#141516] text-white">
+		<div className="flex p-10 bg-[#141516] text-white">
 			<div>
-				<h1 className="font-bold text-2xl">Address:</h1>
+				<h1 className="font-bold md:text-2xl">Address:</h1>
 				<ul>
 					<li>CORPORATE OFFICE:</li>
 					<li>
@@ -16,7 +16,7 @@ const Footer = () => {
 			</div>
 			<div>
 				<ul>
-					<li>BANGALORE OFFICE:</li>
+					<h1 className="font-bold md:text-2xl">Bangalore Office:</h1>
 					<li>
 						40/1A, 1st floor, Basappa Complex, <br />
 						Lavelle Road, behind Rotary Club, <br />
@@ -27,7 +27,7 @@ const Footer = () => {
 				</ul>
 			</div>
 			<div>
-				<h1 className="font-bold text-2xl">Project:</h1>
+				<h1 className="font-bold md:text-2xl">Project:</h1>
 				<ul>
 					<li>Pedda Amberpet</li>
 					<li>Reserve</li>

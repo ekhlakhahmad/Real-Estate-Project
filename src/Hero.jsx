@@ -8,9 +8,9 @@ import map from "./assets/map (Traced).svg";
 const Hero = () => {
 	return (
 		<div>
-			<div className="flex flex-wrap justify-between md:flex-row flex-col px-20">
+			<div className="flex flex-wrap justify-between md:flex-row flex-col px-10">
 				<p className="flex flex-col items-start gap-8 md:w-1/2 w-full text-xl text-justify">
-					<h1 className="pt-32 md:text-6xl text-2xl text-blue-600 font-poppins">
+					<h1 className="pt-32 md:text-6xl text-3xl text-blue-600 font-poppins">
 						THE PRIMELAND MARK
 					</h1>
 					We work with a purpose and the purpose is to create value for
@@ -26,28 +26,28 @@ const Hero = () => {
 						Enquiry Now
 					</button>
 				</p>
-				<img src={home} alt="" className="md:w-1/3" />
+				<img src={home} alt="" className="md:w-1/3 py-4" />
 			</div>
 			<div className="flex justify-around items-center bg-[#e2efff] py-12">
 				<div className="flex flex-col justify-center items-center">
 					<img src={excavator} alt="" className="w-1/3" />
 					<h1 className="text-3xl font-bold p-2">25+</h1>
-					<p className="text-sm">INDUSTRY EXPERIENCE</p>
+					<p className="text-[12px] md:text-sm">INDUSTRY EXPERIENCE</p>
 				</div>
 				<div className="flex flex-col justify-center items-center">
 					<img src={interior} alt="" className="w-1/3" />
 					<h1 className="text-3xl font-bold p-2">10K+</h1>
-					<p className="text-sm">HAPPY CUSTOMERS</p>
+					<p className="text-[12px] md:text-sm">HAPPY CUSTOMERS</p>
 				</div>
 				<div className="flex flex-col justify-center items-center">
 					<img src={office} alt="" className="w-1/3" />
 					<h1 className="text-3xl font-bold p-2">2K+</h1>
-					<p className="text-sm">ACRES CRAFTED</p>
+					<p className="text-[12px] md:text-sm">ACRES CRAFTED</p>
 				</div>
 				<div className="flex flex-col justify-center items-center">
 					<img src={map} alt="" className="w-1/3" />
 					<h1 className="text-3xl font-bold p-2">500+</h1>
-					<p className="text-sm">TOTAL AREA SQ</p>
+					<p className="text-[12px] md:text-sm">TOTAL AREA SQ</p>
 				</div>
 			</div>
 		</div>

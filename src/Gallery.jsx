@@ -2,7 +2,7 @@ import React from "react";
 
 const Gallery = () => {
 	return (
-		<div className="flex items-center flex-col my-10 justify-center ">
+		<div className="flex items-center flex-col my-10 justify-center">
 			<h3 className="p-10 text-center text-6xl text-blue-600 font-poppins">
 				Gallery
 			</h3>

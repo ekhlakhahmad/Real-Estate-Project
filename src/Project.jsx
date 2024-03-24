@@ -88,11 +88,11 @@ const Project = () => {
 
 	return (
 		<div>
-			<h1 className="p-10 text-center md:text-6xl text-4xl text-blue-600 font-poppins">
+			<h1 className="pb-8 text-center md:text-6xl text-3xl font-bold text-blue-600 font-poppins">
 				Welcome to Pedda Amberpet
 			</h1>
-			<div className="flex justify-between px-32">
-				<p className="w-1/2 flex flex-col items-start gap-8 text-2xl">
+			<div className="flex flex-col md:flex-row justify-between px-10 text-justify">
+				<p className="md:w-1/2 flex flex-col items-start gap-8 md:text-2xl text-lg">
 					If the apartment life is more of your style then we’ve got you
 					covered. Live in your dream home at an excellent premium, 2 list-disc
 					& 3 BHK apartments with exclusive amenities that let you experience
@@ -102,14 +102,16 @@ const Project = () => {
 					</button>
 				</p>
 
-				<img src={home} alt="image" className="w-[500px] h-[400px] pb-10" />
+				<img
+					src={home}
+					alt="image"
+					className="w-[400px] h-[400px] pb-10 rounded-lg"
+				/>
 			</div>
 
-			<div className="flex flex-col justify-center p-10 gap-5 bg-[#12276e] text-white">
-				<h2 className="font-bold text-4xl text-center pb-5">
-					Project Features
-				</h2>
-				<div className="flex justify-center gap-5 flex-wrap">
+			<div className="flex flex-col justify-center gap-5 bg-[#12276e] text-white">
+				<h1 className="font-bold text-4xl text-center p-5">Project Features</h1>
+				<div className="flex justify-center gap-5 flex-wrap py-5">
 					{projectItems.map((item, index) => (
 						<div key={index}>
 							<img
@@ -124,9 +126,11 @@ const Project = () => {
 				</div>
 			</div>
 
-			<div className="flex flex-col items-center my-20">
-				<h3 className="text-5xl font-bold my-5">Location Advantages</h3>
-				<div className="flex justify-center items-center gap-16 font-sm font-thin">
+			<div className="flex flex-col items-center my-20 px-10">
+				<h3 className="md:text-5xl text-4xl font-bold my-5 text-center">
+					Location Advantages
+				</h3>
+				<div className="flex justify-center gap-16 font-sm font-thin">
 					<ul className="flex flex-col gap-2 list-disc ">
 						<li>Very close to Ramoji Film city</li>
 						<li>10 mins from Sanghi Temple</li>
@@ -146,7 +150,7 @@ const Project = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center justify-center mx-20 my-5">
+			<div className="flex items-center justify-center py-10 px-10">
 				<iframe
 					title="Embedded Google Map"
 					className="w-full h-[60vh]"
