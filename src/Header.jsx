@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import LOGO3 from "./assets/FEJ LOGO.png";
+import LOGO from "./assets/Real-Estate-Logo.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
 		<div className="flex justify-between items-center px-10 py-2 text-lg text-black shadow-lg">
 			<div>
-				<img src={LOGO3} alt="" className="w-16" />
+				<img src={LOGO} alt="" className="w-16" />
 			</div>
 			<ul className="flex justify-between items-center">
 				<li className="px-2 hover:text-blue-600 cursor-pointer text-md">
