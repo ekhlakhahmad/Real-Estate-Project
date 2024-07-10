@@ -1,6 +1,6 @@
 import React from "react";
 import { assets } from "../assets/Compress/assets";
-import home from "./assets/home.jpg";
+import home from "../assets/home.jpg";
 
 const Project = () => {
 	const projectItems = [

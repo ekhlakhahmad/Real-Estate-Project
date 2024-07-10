@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "./assets/CompressImg/img1.jpg";
-import img2 from "./assets/CompressImg/img2.jpg";
-import img3 from "./assets/CompressImg/img3.jpg";
-import img4 from "./assets/CompressImg/img4.jpg";
-import img5 from "./assets/CompressImg/img5.jpg";
-import img6 from "./assets/CompressImg/img6.jpg";
+import img1 from "../assets/CompressImg/img1.jpg";
+import img2 from "../assets/CompressImg/img2.jpg";
+import img3 from "../assets/CompressImg/img3.jpg";
+import img4 from "../assets/CompressImg/img4.jpg";
+import img5 from "../assets/CompressImg/img5.jpg";
+import img6 from "../assets/CompressImg/img6.jpg"
 
 const Body = () => {
 	return (

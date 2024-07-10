@@ -1,9 +1,9 @@
 import React from "react";
-import home from "./assets/home.svg";
-import excavator from "./assets/excavator.svg";
-import interior from "./assets/interior-design (Traced).svg";
-import office from "./assets/office (Traced).svg";
-import map from "./assets/map (Traced).svg";
+import home from "../assets/home.svg";
+import excavator from "../assets/excavator.svg";
+import interior from "../assets/interior-design (Traced).svg";
+import office from "../assets/office (Traced).svg";
+import map from "../assets/map (Traced).svg";
 
 const Hero = () => {
 	return (
