@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import Project from "./Project";
-import Header from "./Header";
-import Footer from "./Footer";
-import Gallery from "./Gallery";
-import Contact from "./Contact";
-import About from "./About";
+import Home from "./pages/Home";
+import Project from "./pages/Project";
+import Header from "./pages/Header";
+import Footer from "./pages/Footer";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
 
 const App = () => {
 	return (
